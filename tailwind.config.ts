@@ -61,7 +61,23 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				'bright-pink': {
+					DEFAULT: 'hsl(var(--bright-pink))',
+					foreground: 'hsl(var(--bright-pink-foreground))'
+				},
+				'pastel-yellow': {
+					DEFAULT: 'hsl(var(--pastel-yellow))',
+					foreground: 'hsl(var(--pastel-yellow-foreground))'
+				},
+				'pastel-blue': {
+					DEFAULT: 'hsl(var(--pastel-blue))',
+					foreground: 'hsl(var(--pastel-blue-foreground))'
 				}
+			},
+			fontFamily: {
+				heading: ['Fredoka', 'sans-serif'],
+				body: ['Nunito', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
