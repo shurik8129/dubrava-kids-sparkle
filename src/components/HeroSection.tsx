@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Phone, MapPin } from "lucide-react";
 import heroImage from "@/assets/hero-center.jpg";
+import PricingModal from "@/components/PricingModal";
 
 const HeroSection = () => {
   return (
@@ -45,6 +46,7 @@ const HeroSection = () => {
               <MessageCircle className="mr-2 h-5 w-5" />
               WhatsApp
             </Button>
+            <PricingModal />
           </div>
 
           {/* Contact Info */}
